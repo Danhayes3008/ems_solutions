@@ -1,10 +1,9 @@
+import React, { Fragment } from "react";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Fragment></Fragment>
   );
 }
 
