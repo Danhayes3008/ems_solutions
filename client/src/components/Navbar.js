@@ -11,8 +11,14 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul>
-                        <li>personnel</li>
-                        <li>payroll</li>
+                        <li>Home</li>
+                        <li>Schedules</li>
+                        <li>Requests</li>
+                        <li>Exceptions</li>
+                        <li>Payroll</li>
+                        <li>Forcasting</li>
+                        <li>Personnel</li>
+                        <li>Logout</li>
                     </ul>
                 </div>
             </nav>
