@@ -1,0 +1,9 @@
+
+# server folder 
+node_modules
+.env
+package-lock.json
+
+# notes
+cheetsheet
+postgres commands
