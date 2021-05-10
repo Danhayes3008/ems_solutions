@@ -1,3 +1,7 @@
+.list-item {
+  padding-left: 10px;
+}
+
 nav {
   width: 100%;
 }
@@ -9,10 +13,11 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  height: 50px;
   font-size: 1.5rem;
-  padding-left: 10px;
-  padding-top: 25%;
+}
+
+nav ul li:hover {
+  background-color: aqua;
 }
 
 .navbar {
@@ -23,6 +28,10 @@ nav ul li {
   width: 10vw;
   height: 100vh;
   background-color: lightblue;
+}
+
+.navbar-details {
+  height: 25vh;
 }
 
 .container {
