@@ -1,5 +1,5 @@
 .list-item {
-  padding-left: 10px;
+  padding-left: 22px;
 }
 
 nav {
@@ -14,18 +14,20 @@ nav ul {
 nav ul li {
   list-style: none;
   font-size: 1.5rem;
+  font-weight: lighter;
+  color: grey;
 }
 
 nav ul li:hover {
   background-color: aqua;
+  border-radius: 0px 25px 25px 0px;
 }
 
 .navbar {
   display: inline-flex;
   vertical-align: top;
-  width: 10vw;
+  width: 14vw;
   height: 100vh;
-  background-color: lightblue;
 }
 
 .navbar-details {
