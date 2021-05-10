@@ -1,4 +1,5 @@
 import React from 'react'
+import { ImHome3, ImDrawer, ImCalculator, ImCalendar, ImExit, ImUsers, ImFlag, ImCreditCard } from "react-icons/im";
 
 const Navbar = () => {
     return (
@@ -12,15 +13,15 @@ const Navbar = () => {
                 <div>
                     <ul>
                         <li>
-                            <p className="list-item">Home</p>
+                            <p className="list-item"><ImHome3 /> Home</p>
                         </li>
-                        <li><p className="list-item">Schedules</p></li>
-                        <li><p className="list-item">Requests</p></li>
-                        <li><p className="list-item">Exceptions</p></li>
-                        <li><p className="list-item">Payroll</p></li>
-                        <li><p className="list-item">Forcasting</p></li>
-                        <li><p className="list-item">Personnel</p></li>
-                        <li><p className="list-item">Logout</p></li>
+                        <li><p className="list-item"><ImCalendar />Schedules</p></li>
+                        <li><p className="list-item"><ImDrawer /> Requests</p></li>
+                        <li><p className="list-item"><ImFlag /> Exceptions</p></li>
+                        <li><p className="list-item"><ImCreditCard /> Payroll</p></li>
+                        <li><p className="list-item"><ImCalculator /> Forcasting</p></li>
+                        <li><p className="list-item"><ImUsers /> Personnel</p></li>
+                        <li><p className="list-item"><ImExit /> Logout</p></li>
                     </ul>
                 </div>
             </nav>
