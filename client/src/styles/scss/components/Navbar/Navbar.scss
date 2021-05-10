@@ -1,3 +1,9 @@
+hr {
+  height: 1px;
+  border: none;
+  background-color: grey;
+}
+
 .list-item {
   padding-left: 22px;
 }
@@ -36,9 +42,9 @@ nav ul li:hover {
   color: #6a6565;
 }
 
-.navbar-details .date-time{
-    width: 50%;
-    padding-left: 25%;
+.navbar-details .date-time {
+  width: 50%;
+  padding-left: 25%;
 }
 
 .navbar-details .wk {
