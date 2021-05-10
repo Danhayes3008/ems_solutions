@@ -6,9 +6,9 @@ const Navbar = () => {
         <div className="navbar">
             <nav>
                 <div className="navbar-details">
-                    <h1>wk - 32</h1>
-                    <h3>Daniel Hayes</h3>
-                    <h3>30-04-2021 13:42:27</h3>
+                    <h1 className="wk">wk - 32</h1>
+                    <h3 className="user">Daniel Hayes</h3>
+                    <h3 className="date-time">30-04-2021 13:42:27</h3>
                 </div>
                 <hr />
                 <div>
