@@ -6,6 +6,7 @@ import "./styles/scss/main.css";
 // Components
 import Login from "./components/Login"
 import Navbar from "./components/Navbar"
+import Schedules from "./components/Schedules"
 import Personnel from "./components/Personnel"
 import Payroll from "./components/Payroll"
 
@@ -17,8 +18,10 @@ function App() {
           <Route path="/login" component={Login} />
           <div>
             <Navbar />
-            <Route path="/personnel" component={Personnel} />
+            <Route path="/" />
+            <Route path="/schedules" component={Schedules} />
             <Route path="/payroll" component={Payroll} />
+            <Route path="/personnel" component={Personnel} />
           </div>
         </Switch>
       </Router>
