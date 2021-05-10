@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="navbar">
             <nav>
                 <div>
                     <h1>wk - 32</h1>
