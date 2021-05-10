@@ -13,15 +13,15 @@ const Navbar = () => {
                 <div>
                     <ul>
                         <li>
-                            <p className="list-item"><ImHome3 /> Home</p>
+                            <p className="list-item"><ImHome3 fontSize="0.7em" /> Home</p>
                         </li>
-                        <li><p className="list-item"><ImCalendar />Schedules</p></li>
-                        <li><p className="list-item"><ImDrawer /> Requests</p></li>
-                        <li><p className="list-item"><ImFlag /> Exceptions</p></li>
-                        <li><p className="list-item"><ImCreditCard /> Payroll</p></li>
-                        <li><p className="list-item"><ImCalculator /> Forcasting</p></li>
-                        <li><p className="list-item"><ImUsers /> Personnel</p></li>
-                        <li><p className="list-item"><ImExit /> Logout</p></li>
+                        <li><p className="list-item"><ImCalendar fontSize="0.7em" /> Schedules</p></li>
+                        <li><p className="list-item"><ImDrawer fontSize="0.7em" /> Requests</p></li>
+                        <li><p className="list-item"><ImFlag fontSize="0.7em" /> Exceptions</p></li>
+                        <li><p className="list-item"><ImCreditCard fontSize="0.7em" /> Payroll</p></li>
+                        <li><p className="list-item"><ImCalculator fontSize="0.7em" /> Forcasting</p></li>
+                        <li><p className="list-item"><ImUsers fontSize="0.7em" /> Personnel</p></li>
+                        <li><p className="list-item"><ImExit fontSize="0.7em" /> Logout</p></li>
                     </ul>
                 </div>
             </nav>
