@@ -10,6 +10,7 @@ const Navbar = () => {
                     <h3>Daniel Hayes</h3>
                     <h3>30-04-2021 13:42:27</h3>
                 </div>
+                <hr />
                 <div>
                     <ul>
                         <li>
@@ -24,6 +25,7 @@ const Navbar = () => {
                         <li><p className="list-item"><ImExit fontSize="0.7em" /> Logout</p></li>
                     </ul>
                 </div>
+                <hr />
             </nav>
         </div>
     )
