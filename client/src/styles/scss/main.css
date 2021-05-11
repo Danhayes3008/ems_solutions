@@ -72,4 +72,23 @@ body {
   background-color: white;
   border: 1px solid grey;
 }
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td {
+  height: 1vh;
+}
+
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 /*# sourceMappingURL=main.css.map */
