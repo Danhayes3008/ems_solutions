@@ -65,4 +65,11 @@ body {
   height: 98vh;
   padding: 10px;
 }
+
+.box {
+  width: 87vw;
+  height: 98vh;
+  background-color: white;
+  border: 1px solid grey;
+}
 /*# sourceMappingURL=main.css.map */
