@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+const pool = require("./db");
 
 //  middleware
 app.use(cors());
@@ -9,18 +10,14 @@ app.use(express.json()); // allows us to use req.body
 // ROUTES
 
 // get all employee's from the employee table
-app.get("/employee/:id", async (req, res) => {
-    try {
-      const { id } = req.params;
-      const todo = await pool.query("SELECT * FROM employee WHERE id = $1", [
-        id
-      ]);
-
-      res.json(todo.rows[0]);
-    } catch (err) {
-      console.error(err.message);
-    }
-  });
+app.get("/employees", async (req, res) => {
+  try {
+    const allEmployees = await pool.query("SELECT * FROM employee");
+    res.json(allEmployees.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+});
 
 // this prints a message to the console when the server starts
 app.listen(5000, () => {
