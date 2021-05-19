@@ -21,7 +21,7 @@ app.get("/employees", async (req, res) => {
 
 app.get("/forcasting", async (req, res) => {
   try {
-    const Forcasting = await pool.query("SELECT week_start::text, week_end::text, wage_budget, sales FROM forcasting");
+    const Forcasting = await pool.query("SELECT week_start::text, week_end::text, wage_budget, sales::money FROM forcasting");
     res.json(Forcasting.rows);
   } catch (err) {
     console.error(err.message);
