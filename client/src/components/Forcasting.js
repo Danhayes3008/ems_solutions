@@ -38,7 +38,7 @@ const Forcasting = () => {
               <tr key={budget.forcasting_id} className="table-rows">
                 <td>{budget.week_start}</td>
                 <td>{budget.week_end}</td>
-                <td>{budget.wage_budget}</td>
+                <td>{budget.wage_budget}%</td>
                 <td>{budget.sales}</td>
                 <td>
                   <button>Edit</button>
