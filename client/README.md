@@ -27,8 +27,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### contributions and acknowledgements
+## contributions and acknowledgements
 
-## acknowlegements
+### acknowlegements
 
 Whilst trying to resolve an issue with the dates in my forcasting section, i came accross a site which provided the information i needed. This quary here  `const Forcasting = await pool.query("SELECT week_start::text, week_end::text, wage_budget, sales FROM forcasting");` helps turns my week_start and week_end into strings so that they only show the tear, month and day on the browser. The artical i found the solution at <a href="https://node-postgres.com/features/types" target="_blank">node-postgres.com</a>.
